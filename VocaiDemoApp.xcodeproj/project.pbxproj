@@ -1,0 +1,666 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F9261D062D761B7400577301 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F9261D052D761B7400577301 /* AppDelegate.m */; };
+		F9261D092D761B7400577301 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F9261D082D761B7400577301 /* SceneDelegate.m */; };
+		F9261D0C2D761B7400577301 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F9261D0B2D761B7400577301 /* ViewController.m */; };
+		F9261D0F2D761B7400577301 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F9261D0D2D761B7400577301 /* Main.storyboard */; };
+		F9261D112D761B7500577301 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F9261D102D761B7500577301 /* Assets.xcassets */; };
+		F9261D142D761B7500577301 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F9261D122D761B7500577301 /* LaunchScreen.storyboard */; };
+		F9261D172D761B7500577301 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F9261D162D761B7500577301 /* main.m */; };
+		F9261D212D761B7600577301 /* VocaiDemoAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F9261D202D761B7600577301 /* VocaiDemoAppTests.m */; };
+		F9261D2B2D761B7600577301 /* VocaiDemoAppUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = F9261D2A2D761B7600577301 /* VocaiDemoAppUITests.m */; };
+		F9261D2D2D761B7600577301 /* VocaiDemoAppUITestsLaunchTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F9261D2C2D761B7600577301 /* VocaiDemoAppUITestsLaunchTests.m */; };
+		F9261D7B2D76FB0300577301 /* language.json in Resources */ = {isa = PBXBuildFile; fileRef = F9261D7A2D76FB0300577301 /* language.json */; };
+		F9BB2D492D79E3D000C66FC2 /* VocalWebcomponent.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F9BB2D472D79E36400C66FC2 /* VocalWebcomponent.framework */; };
+		F9BB2D4A2D79E3D000C66FC2 /* VocalWebcomponent.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = F9BB2D472D79E36400C66FC2 /* VocalWebcomponent.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F9261D1D2D761B7600577301 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F9261CF92D761B7300577301 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F9261D002D761B7400577301;
+			remoteInfo = VocaiDemoApp;
+		};
+		F9261D272D761B7600577301 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F9261CF92D761B7300577301 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F9261D002D761B7400577301;
+			remoteInfo = VocaiDemoApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		F9261D3E2D761FE200577301 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				F9BB2D4A2D79E3D000C66FC2 /* VocalWebcomponent.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		F9261D012D761B7400577301 /* VocaiDemoApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VocaiDemoApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F9261D042D761B7400577301 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		F9261D052D761B7400577301 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F9261D072D761B7400577301 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		F9261D082D761B7400577301 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		F9261D0A2D761B7400577301 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		F9261D0B2D761B7400577301 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		F9261D0E2D761B7400577301 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F9261D102D761B7500577301 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F9261D132D761B7500577301 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F9261D152D761B7500577301 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F9261D162D761B7500577301 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F9261D1C2D761B7600577301 /* VocaiDemoAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VocaiDemoAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F9261D202D761B7600577301 /* VocaiDemoAppTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VocaiDemoAppTests.m; sourceTree = "<group>"; };
+		F9261D262D761B7600577301 /* VocaiDemoAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VocaiDemoAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F9261D2A2D761B7600577301 /* VocaiDemoAppUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VocaiDemoAppUITests.m; sourceTree = "<group>"; };
+		F9261D2C2D761B7600577301 /* VocaiDemoAppUITestsLaunchTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VocaiDemoAppUITestsLaunchTests.m; sourceTree = "<group>"; };
+		F9261D7A2D76FB0300577301 /* language.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = language.json; sourceTree = "<group>"; };
+		F9BB2D472D79E36400C66FC2 /* VocalWebcomponent.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = VocalWebcomponent.framework; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F9261CFE2D761B7400577301 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F9BB2D492D79E3D000C66FC2 /* VocalWebcomponent.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F9261D192D761B7600577301 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F9261D232D761B7600577301 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F9261CF82D761B7300577301 = {
+			isa = PBXGroup;
+			children = (
+				F9261D032D761B7400577301 /* VocaiDemoApp */,
+				F9261D1F2D761B7600577301 /* VocaiDemoAppTests */,
+				F9261D292D761B7600577301 /* VocaiDemoAppUITests */,
+				F9261D022D761B7400577301 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F9261D022D761B7400577301 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F9261D012D761B7400577301 /* VocaiDemoApp.app */,
+				F9261D1C2D761B7600577301 /* VocaiDemoAppTests.xctest */,
+				F9261D262D761B7600577301 /* VocaiDemoAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F9261D032D761B7400577301 /* VocaiDemoApp */ = {
+			isa = PBXGroup;
+			children = (
+				F9BB2D472D79E36400C66FC2 /* VocalWebcomponent.framework */,
+				F9261D152D761B7500577301 /* Info.plist */,
+				F9261D582D76EAF700577301 /* Resource */,
+				F9261D042D761B7400577301 /* AppDelegate.h */,
+				F9261D052D761B7400577301 /* AppDelegate.m */,
+				F9261D072D761B7400577301 /* SceneDelegate.h */,
+				F9261D082D761B7400577301 /* SceneDelegate.m */,
+				F9261D0A2D761B7400577301 /* ViewController.h */,
+				F9261D0B2D761B7400577301 /* ViewController.m */,
+				F9261D7A2D76FB0300577301 /* language.json */,
+				F9261D0D2D761B7400577301 /* Main.storyboard */,
+				F9261D102D761B7500577301 /* Assets.xcassets */,
+				F9261D122D761B7500577301 /* LaunchScreen.storyboard */,
+				F9261D162D761B7500577301 /* main.m */,
+			);
+			path = VocaiDemoApp;
+			sourceTree = "<group>";
+		};
+		F9261D1F2D761B7600577301 /* VocaiDemoAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				F9261D202D761B7600577301 /* VocaiDemoAppTests.m */,
+			);
+			path = VocaiDemoAppTests;
+			sourceTree = "<group>";
+		};
+		F9261D292D761B7600577301 /* VocaiDemoAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F9261D2A2D761B7600577301 /* VocaiDemoAppUITests.m */,
+				F9261D2C2D761B7600577301 /* VocaiDemoAppUITestsLaunchTests.m */,
+			);
+			path = VocaiDemoAppUITests;
+			sourceTree = "<group>";
+		};
+		F9261D582D76EAF700577301 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F9261D002D761B7400577301 /* VocaiDemoApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F9261D302D761B7600577301 /* Build configuration list for PBXNativeTarget "VocaiDemoApp" */;
+			buildPhases = (
+				F9261CFD2D761B7400577301 /* Sources */,
+				F9261CFE2D761B7400577301 /* Frameworks */,
+				F9261CFF2D761B7400577301 /* Resources */,
+				F9261D3E2D761FE200577301 /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = VocaiDemoApp;
+			productName = VocaiDemoApp;
+			productReference = F9261D012D761B7400577301 /* VocaiDemoApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F9261D1B2D761B7600577301 /* VocaiDemoAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F9261D332D761B7600577301 /* Build configuration list for PBXNativeTarget "VocaiDemoAppTests" */;
+			buildPhases = (
+				F9261D182D761B7600577301 /* Sources */,
+				F9261D192D761B7600577301 /* Frameworks */,
+				F9261D1A2D761B7600577301 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F9261D1E2D761B7600577301 /* PBXTargetDependency */,
+			);
+			name = VocaiDemoAppTests;
+			productName = VocaiDemoAppTests;
+			productReference = F9261D1C2D761B7600577301 /* VocaiDemoAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F9261D252D761B7600577301 /* VocaiDemoAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F9261D362D761B7600577301 /* Build configuration list for PBXNativeTarget "VocaiDemoAppUITests" */;
+			buildPhases = (
+				F9261D222D761B7600577301 /* Sources */,
+				F9261D232D761B7600577301 /* Frameworks */,
+				F9261D242D761B7600577301 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F9261D282D761B7600577301 /* PBXTargetDependency */,
+			);
+			name = VocaiDemoAppUITests;
+			productName = VocaiDemoAppUITests;
+			productReference = F9261D262D761B7600577301 /* VocaiDemoAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F9261CF92D761B7300577301 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					F9261D002D761B7400577301 = {
+						CreatedOnToolsVersion = 15.2;
+					};
+					F9261D1B2D761B7600577301 = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = F9261D002D761B7400577301;
+					};
+					F9261D252D761B7600577301 = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = F9261D002D761B7400577301;
+					};
+				};
+			};
+			buildConfigurationList = F9261CFC2D761B7300577301 /* Build configuration list for PBXProject "VocaiDemoApp" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F9261CF82D761B7300577301;
+			productRefGroup = F9261D022D761B7400577301 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F9261D002D761B7400577301 /* VocaiDemoApp */,
+				F9261D1B2D761B7600577301 /* VocaiDemoAppTests */,
+				F9261D252D761B7600577301 /* VocaiDemoAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F9261CFF2D761B7400577301 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F9261D142D761B7500577301 /* LaunchScreen.storyboard in Resources */,
+				F9261D7B2D76FB0300577301 /* language.json in Resources */,
+				F9261D112D761B7500577301 /* Assets.xcassets in Resources */,
+				F9261D0F2D761B7400577301 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F9261D1A2D761B7600577301 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F9261D242D761B7600577301 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F9261CFD2D761B7400577301 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F9261D0C2D761B7400577301 /* ViewController.m in Sources */,
+				F9261D062D761B7400577301 /* AppDelegate.m in Sources */,
+				F9261D172D761B7500577301 /* main.m in Sources */,
+				F9261D092D761B7400577301 /* SceneDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F9261D182D761B7600577301 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F9261D212D761B7600577301 /* VocaiDemoAppTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F9261D222D761B7600577301 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F9261D2D2D761B7600577301 /* VocaiDemoAppUITestsLaunchTests.m in Sources */,
+				F9261D2B2D761B7600577301 /* VocaiDemoAppUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F9261D1E2D761B7600577301 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F9261D002D761B7400577301 /* VocaiDemoApp */;
+			targetProxy = F9261D1D2D761B7600577301 /* PBXContainerItemProxy */;
+		};
+		F9261D282D761B7600577301 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F9261D002D761B7400577301 /* VocaiDemoApp */;
+			targetProxy = F9261D272D761B7600577301 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F9261D0D2D761B7400577301 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F9261D0E2D761B7400577301 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F9261D122D761B7500577301 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F9261D132D761B7500577301 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F9261D2E2D761B7600577301 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		F9261D2F2D761B7600577301 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F9261D312D761B7600577301 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = TTE3BK35DB;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+					"$(PROJECT_DIR)/VocaiDemoApp",
+				);
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = VocaiDemoApp/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.vocal.webcomponent.VocaiDemoApp123;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		F9261D322D761B7600577301 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = TTE3BK35DB;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+					"$(PROJECT_DIR)/VocaiDemoApp",
+				);
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = VocaiDemoApp/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.vocal.webcomponent.VocaiDemoApp123;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		F9261D342D761B7600577301 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = TTE3BK35DB;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.vocal.webcomponent.VocaiDemoAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VocaiDemoApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/VocaiDemoApp";
+			};
+			name = Debug;
+		};
+		F9261D352D761B7600577301 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = TTE3BK35DB;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.vocal.webcomponent.VocaiDemoAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VocaiDemoApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/VocaiDemoApp";
+			};
+			name = Release;
+		};
+		F9261D372D761B7600577301 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = TTE3BK35DB;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.vocal.webcomponent.VocaiDemoAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = VocaiDemoApp;
+			};
+			name = Debug;
+		};
+		F9261D382D761B7600577301 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = TTE3BK35DB;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.vocal.webcomponent.VocaiDemoAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = VocaiDemoApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F9261CFC2D761B7300577301 /* Build configuration list for PBXProject "VocaiDemoApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F9261D2E2D761B7600577301 /* Debug */,
+				F9261D2F2D761B7600577301 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F9261D302D761B7600577301 /* Build configuration list for PBXNativeTarget "VocaiDemoApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F9261D312D761B7600577301 /* Debug */,
+				F9261D322D761B7600577301 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F9261D332D761B7600577301 /* Build configuration list for PBXNativeTarget "VocaiDemoAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F9261D342D761B7600577301 /* Debug */,
+				F9261D352D761B7600577301 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F9261D362D761B7600577301 /* Build configuration list for PBXNativeTarget "VocaiDemoAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F9261D372D761B7600577301 /* Debug */,
+				F9261D382D761B7600577301 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F9261CF92D761B7300577301 /* Project object */;
+}
