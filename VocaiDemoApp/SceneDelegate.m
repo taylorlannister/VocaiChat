@@ -32,7 +32,9 @@
                                                               botId:@"19365"
                                                            language:@"cn"
                                                     otherParams:exampleOtherDict];
-    self.window.rootViewController = [[UINavigationController alloc] initWithRootViewController: [VocaiSdkBuilder buildSdkWithParams: vocaiModel]];
+    
+//    self.window.rootViewController = [[UINavigationController alloc] initWithRootViewController: [VocaiSdkBuilder buildSdkWithParams: vocaiModel]];
+    self.window.rootViewController = [VocaiSdkBuilder buildSdkWithParams: vocaiModel];
     [self.window makeKeyAndVisible];
 }
 
